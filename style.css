@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: black;
+  padding: 20px 10px;
+  display: flex;
+ align-items:center;
+ justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 24px;
+  /* float: right; */
+  list-style-type: none;
+
+  
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+ul li a:hover{
+  color: black;
+  background-color: blue;
+}
+section{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 100px;
+}
+button{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.pc{
+  max-width: 400px;
+}
+#Skills_Section{
+  display: flex ;
+  flex-direction: column;
+}
+ .Logos{
+  margin: auto;
+  display: flex ;
+  gap: 100px;
+ } 
+
+.but{
+  border-radius: 3rem;
+}
+form{
+  display: flex;
+}
+
+#Contact_Section{
+  display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
